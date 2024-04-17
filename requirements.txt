@@ -1,0 +1,10 @@
+pyttsx3
+SpeechRecognition
+requests
+beautifulsoup4
+wikipedia
+fbchat
+wolframalpha
+pyautogui
+psutil
+
