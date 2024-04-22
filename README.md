@@ -1,38 +1,39 @@
-Ziggy - Virtual Assistant with AI
+# Ziggy - Virtual Assistant with AI
 
-Welcome to Ziggy, a virtual assistant project designed to assist users with various tasks using voice commands.
-About Ziggy
+Welcome to Ziggy, a virtual assistant project in development to assist users with various tasks using voice commands.
 
-Ziggy is an AI-powered virtual assistant capable of performing a range of tasks based on voice commands.
-Getting Started
+## About Ziggy
 
-To contribute to Ziggy, follow these steps:
+Ziggy is a virtual assistant project planned to be AI-powered, aiming to perform a range of tasks based on voice commands and help with dayly tasks.
 
-    Clone the Repository:
 
-    bash
+## Getting Started
 
-git clone https://github.com/your-username/ziggy.git
+### Clone the Repository
 
-Install Dependencies:
+```bash
+git clone https://github.com/lMainente/ziggy.git
+```
+### Install Dependencies and run
+```bash
+python setup.py
+```
 
-bash
+### Explore the Code
 
-    pip install -r requirements.txt
+Navigate through the project's files and directories to understand its structure.
 
-    Explore the Code:
-        Navigate through the project's files and directories to understand its structure.
+### Contribute
 
-    Contribute:
-        Choose an existing feature or suggest a new one.
-        Fork the repository, make your changes, and submit a pull request.
+    Choose an existing feature or suggest a new one.
+    Fork the repository, make your changes, and submit a pull request.
 
-Commands
+# Commands
 
-Ziggy currently supports the following voice commands:
+### Ziggy currently supports the following voice commands:
 
     General:
-        "Ziggy" (activates the assistant)
+        "Ziggy"
         "tell me the date" or "tell me date"
         "hows going" or "how are you"
         "tell me the time" or "what time is it" or "tell time"
@@ -61,13 +62,24 @@ Ziggy currently supports the following voice commands:
         "check message" or "check messages" or "check new messages" or "check new message" or "any new messages" or "any new message" or "any messages" or "any message"
         "username" or "user" or "user name"
 
-Contributing Guidelines
 
-    When adding new features or making changes, follow the existing code style and structure.
-    Write clear commit messages that explain the purpose of your changes.
-    Ensure all tests pass before submitting a pull request.
+## Project Status
 
-Contributors
+### Completed:
 
-    Your Name
-    Another Contributor
+- [x] Basic voice commands implemented
+
+### In Progress:
+
+
+- [ ] Integration with additional services (e.g., calendar, reminders, to-do´s)
+- [ ] Enhanced user interface and experience
+- [ ] Documentation and user guide
+
+### Ideas for the Future / Not Yet Started:
+
+- [ ] Advanced voice recognition with wake word detection
+- [ ] Personalization features
+- [ ] Multi-language support
+- [ ] AI integration
+- [ ] Improved natural language processing (NLP) capabilities
