@@ -74,6 +74,7 @@ Navigate through the project's files and directories to understand its structure
 
 - [ ] Integration with additional services (e.g., calendar, reminders, to-do´s)
 - [ ] Enhanced user interface and experience
+- [ ] Location based time and weather
 - [ ] Documentation and user guide
 
 ### Ideas for the Future / Not Yet Started:
