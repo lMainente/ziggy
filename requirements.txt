@@ -7,4 +7,5 @@ fbchat
 wolframalpha
 pyautogui
 psutil
+pyaudio
 
