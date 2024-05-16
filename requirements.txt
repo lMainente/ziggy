@@ -8,4 +8,4 @@ wolframalpha
 pyautogui
 psutil
 pyaudio
-
+setuptools
