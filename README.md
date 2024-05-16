@@ -84,3 +84,8 @@ Navigate through the project's files and directories to understand its structure
 - [ ] Multi-language support
 - [ ] AI integration
 - [ ] Improved natural language processing (NLP) capabilities
+
+
+## APP PROTOTYPE
+
+https://www.figma.com/proto/f26BHUaOu7INRD0LPrHjjU/ZIGGY-APP?page-id=0%3A1&node-id=22-88&viewport=-530%2C369%2C0.25&t=0HUrMFdzPYgzFHVN-1&scaling=scale-down&starting-point-node-id=22%3A88
