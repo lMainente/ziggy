@@ -14,11 +14,14 @@ Ziggy is a virtual assistant project planned to be AI-powered, aiming to perform
 ```bash
 git clone https://github.com/lMainente/ziggy.git
 ```
-### Install Dependencies and run
+### Install Dependencies 
 ```bash
-python setup.py
+pip install -r requirements.txt
 ```
-
+### run
+```bash
+python core.py
+```
 ### Explore the Code
 
 Navigate through the project's files and directories to understand its structure.
