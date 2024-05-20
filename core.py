@@ -12,6 +12,7 @@ import wolframalpha
 from time import sleep
 from fbchat import Client
 from fbchat.models import *
+from automation.lights import authenticate_tuya, toggle_all_lights
 
 def speak(audio):
     print(audio)
@@ -224,6 +225,14 @@ def command():
             greeting() 
         elif 'tell me the time' in query or 'what time is it' in query or 'tell time' in query:
             time()
+        elif 'turn on all lights' in query or 'turn on the lights' in query:
+            api = authenticate_tuya()
+            if api:
+                toggle_all_lights(api, 'on')
+        elif 'turn off all lights' in query or 'turn off the lights' in query:
+            api = authenticate_tuya()
+            if api:
+                toggle_all_lights(api, 'off')
         elif 'thank you' in query:
             speak('No problem ')
         elif 'open Google' in query:

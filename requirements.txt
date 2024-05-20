@@ -9,3 +9,6 @@ pyautogui
 psutil
 pyaudio
 setuptools
+PyQt6
+tuyapy
+requests
