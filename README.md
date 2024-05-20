@@ -39,6 +39,9 @@ Navigate through the project's files and directories to understand its structure
         "tell me the time" or "what time is it" or "tell time"
         "thank you"
 
+    Automation:
+        "turn of the lights" or "turn on the lights"
+
     Web Browsing:
         "open Google"
         "Google search" (followed by query)
